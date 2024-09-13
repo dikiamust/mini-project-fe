@@ -14,7 +14,11 @@ Before running this application, make sure the backend is up and running. You ca
 https://github.com/dikiamust/mini-project-be
 
 ```bash
+# Development
 yarn dev
+
+# Docker Compose
+$ docker compose up --build
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
