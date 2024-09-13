@@ -1,21 +1,21 @@
+import { MyPokemonList } from '@/components/MyPokemonList';
 import Navbar from '@/components/Navbar';
-import { PokemonList } from '@/components/PokemonList';
 import Head from 'next/head';
 import { FC } from 'react';
 
-const Home: FC = () => {
+const MyPokemon: FC = () => {
   return (
     <>
       <Head>
-        <title>Pokemon List</title>
-        <meta name="description" content="A list of Pokemon" />
+        <title>My Pokemon</title>
+        <meta name="description" content="A list of My Pokemon" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
-      <PokemonList />
+      <MyPokemonList/>
     </>
   );
 }
 
-export default Home;
+export default MyPokemon;
